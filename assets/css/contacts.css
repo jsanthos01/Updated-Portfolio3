@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+    font-family: 'Karla' ;    
+}
+
+.navbar .navbar-brand {
+    padding-left: 30px;
+}
+
+.navbar .navbar-brand {
+    font-size: 50px;
+    font-family: 'Spectral';
+    color: #64ffda;
+    left: -50px;
+    top: -50px;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-top-color: red;
+}
+
+.navbar .navbar-nav .nav-item{
+    padding: 25px;
+}
+
+.navbar .navbar-nav .nav-item a {
+    color: white;
+    letter-spacing: 1px;
+}
+
+
+.navbar .navbar-nav .nav-item a:hover {
+    color: #64ffda;
+    letter-spacing: 1px;
+}
+ 
+footer {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+    
+  
+}
+
+.mini-para  {
+    text-align: center;
+    width: 100vh;
+    padding: 35px;
+}
+
+.mini-para h1 {
+    font-weight: bold;
+    font-family: 'Spectral';
+    font-size: 45px;
+
+}
+.mini-para p {
+    color: white;
+    opacity: 0.8;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: rgb(41, 41, 41);
+    padding: 35px;
+}
+
+.contact-info form {
+    margin: 25px;
+}
+.copyright {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-links a {
+    opacity: 0.5;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0px 10px;
+    color: #64ffda;
+}
+
+.footer-links a:hover {
+    opacity: 1;
+}

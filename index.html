@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Font-Awesome -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+     <link href="https://fonts.googleapis.com/css?family=Karla|Roboto|Merriweather:700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+ 
+     <!-- Bootstrap and CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/loader.css">
+    <title>JS | Joanna Santhosh</title>
+</head>
+
+<body>
+    <div class="loader">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+    <div class="main-content">
+        <nav class="navbar navbar-expand-sm navbar-dark" data-aos="zoom-in" data-aos-duration="3000">         
+            <a class="navbar-brand">JS.</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse id="navbarNav" >
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutMe">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Resume</a>
+                    </li>
+                </ul>
+            </div>       
+        </nav>
+        <div class="main" >
+            <div class="header">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-lg-5 pic-box">
+                            <div class="pic">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-7 text"data-aos="fade-up" data-aos-duration="3000" >
+                            <div class=" wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                                <span class="coolh5">Hello There! I'm</span>
+                            </div>                            
+                            <h1 id="nameEffect"><span>Joanna <span>Santhosh.</h1>
+                            <h2 class="h2specialLine">An enthusiastic <span class="special">coder.</span></h2>
+                            <p>I'm a first year student that has a strong passion for creating exceptional, yet simple websites and application.</p>
+                            <div class="header-btn">
+                                <a href="aboutMe" class=" btn btn-lg btn-outline buttonsStuff " id="learnMore"><i class="fas fa-user"></i>  Learn More </a>
+                                <a href="aboutMe.html" class=" btn btn-lg btn-outline buttonsStuff"><i class="far fa-file"></i>  My Resume </a>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        <div class="container about-area" id="aboutMe" >
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-12 info" data-aos="fade-up" data-aos-duration="3000">
+                    <h2>About Me</h2>
+                    <div class="about-para">
+                        <p>
+                            Hi! I'm an undergraduate student at the University of Waterloo currently pursuing an Electrical Engineering degree.
+                            I developed a small passion for programming after joining a mini web development bootcamp and decided to delve deep into it. 
+                        </p>
+                        <p>   
+                            I'm passionate about bringing to life creativity through design. 
+                            Apart from coding, my hobbies include arts, music (playing the piano or singing), and 
+                            poetry. 
+                        </p>
+                    </div>
+                    <br>
+                    <div class="skills">
+                        <h2>My Skills</h1>
+                        <p>
+                            Here are a few technologies I'm familiar with: 
+                            <ul class="list">
+                                <li>HTML & CSS(3)</li>
+                                <li>Javascript (ES6+)</li>
+                                <li>jQuery</li>
+                                <li>NodeJS</li>
+                                <li>C++</li>
+                                <li>GIT</li>
+                                <li>API calls</li>
+                                <li>ReactJS</li>
+                            </ul>
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-6 col-md-12 col-12 img"data-aos="fade-up" data-aos-duration="3000">
+                    <img src="assets/images/me.PNG" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="footer">
+            <div class="copyright">
+                <small>&copy; Copyright 2020 - Joanna Santhosh</small>
+            </div>
+            
+            <div class="footer-links">
+              <a href="https://github.com/jsanthos01" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="https://www.linkedin.com/in/joanna-santhosh-63928a195/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </footer>
+        <div id="particles-js">
+
+        </div>
+    </div>
+   
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="assets/js/particles.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/index.js"></script>
+   
+</body>
+</html>

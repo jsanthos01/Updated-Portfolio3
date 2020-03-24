@@ -1,0 +1,230 @@
+body{
+    background-color: black;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+    font-family: 'Karla', sans-serif;    
+}
+
+.navbar .navbar-brand {
+    padding-left: 30px;
+}
+
+.navbar .navbar-brand {
+    font-size: 50px;
+    font-family: 'Spectral';
+    color: #0bceaf;
+    
+}
+
+.navbar .navbar-nav .nav-item{
+    padding: 25px;
+}
+
+.navbar .navbar-nav .nav-item a {
+    color: white;
+    letter-spacing: 1px;
+}
+
+
+.navbar .navbar-nav .nav-item a:hover {
+    color: #0bceaf;
+    letter-spacing: 1px;
+}
+ 
+footer {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+    
+  
+}
+
+.copyright {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-links a {
+    opacity: 0.5;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0px 10px;
+    color: #0bceaf;
+}
+
+.footer-links a:hover {
+    opacity: 1;
+}
+
+
+.projects {
+    margin: 50px 0;
+}
+
+.projects h1 {
+    font-size: 50px;
+    font-family: 'Spectral';
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.projects .featuredWork .projectInfo1{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.projects .featuredWork .projectInfo1 img {
+    border-radius: 10px;
+}
+
+.projects .featuredWork .projectInfo1 .row .textStuff{
+    font-family: 'Spectral';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projects .featuredWork .projectInfo1 .row .textStuff p {
+    background-color: rgb(41, 41, 41);
+    padding: 30px;
+    font-family: 'Karla', sans-serif;    
+
+}
+
+.projects .featuredWork .projectInfo1 .row .textStuff ul {
+    list-style: circle;
+    columns: 3;
+    font-family: 'Karla', sans-serif;    
+    text-align: left; 
+    color: #0bceaf;
+
+}
+
+.projects .featuredWork .projectInfo2{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.projects .featuredWork .projectInfo2 img {
+    border-radius: 10px;
+}
+
+.projects .featuredWork .projectInfo2 .row .textStuff{
+    font-family: 'Spectral';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projects .featuredWork .projectInfo2 .row .textStuff p {
+    background-color: rgb(41, 41, 41);
+    padding: 30px;
+
+}
+
+.projects .featuredWork .projectInfo2 .row .textStuff ul {
+    list-style: circle;
+    columns: 3;
+    text-align: left; 
+    color: #0bceaf;
+
+}
+
+.projects .featuredWork .projectInfo3{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.projects .featuredWork .projectInfo3 img {
+    border-radius: 10px;
+}
+
+.projects .featuredWork .projectInfo3 .row .textStuff{
+    font-family: 'Spectral';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projects .featuredWork .projectInfo3 .row .textStuff p {
+    background-color: rgb(41, 41, 41);
+    padding: 30px;
+
+}
+
+.projects .featuredWork .projectInfo3 .row .textStuff ul {
+    list-style: circle;
+    columns: 3;
+    text-align: left; 
+    color: #0bceaf;
+}
+
+.opInfo h1 {
+    font-family: 'Spectral';
+    text-align: center;
+    font-weight: bold;
+    margin: 45px;
+}
+
+.opInfo .row .opCards {
+    margin-bottom: 50px;
+}
+.opInfo .row .opCards:hover {
+    margin-bottom: 50px;
+}
+
+.opInfo .row .opCards .opBody{
+    background-color: rgb(53, 52, 52);
+    border-radius: 3px;
+    padding: 15px;
+
+}
+
+.opInfo .row .opCards .opBody h4 {
+    text-align: center;
+    font-family: 'Spectral';
+    padding: 25px 0 0 0;
+}
+
+.opInfo .row .opCards .opBody p{
+    padding: 10px;
+    text-align: center;
+}
+
+.opInfo .row .opCards .opBody img {
+    border-radius: 5px;
+}
+
+.linksDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.links{
+    color: #0bceaf;
+    opacity: 0.7;
+    padding: 10px;
+
+}
+
+.links:hover{
+    color: #0bceaf;
+    opacity: 1;
+    padding: 10px;
+
+}
+
