@@ -1,10 +1,10 @@
 body {
-    background-color: black;
+    background-color: #100e17;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Karla', sans-serif;    
-    color: rgb(243, 241, 241) ; 
+    color: #c2c2c2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,6 +12,8 @@ body {
     min-height: 100vh;
 
 }
+
+/* background: -webkit-linear-gradient(#ff512f,#dd2476); */
 
 h2{
     font-family: 'Merriweather', serif;
@@ -23,7 +25,7 @@ h2::before,
 h2::after{
     content: "";
     flex: 1;
-    border: solid grey;
+    border: solid #0bceaf;
     border-width: .05em 0;
     height: .2em;
     margin: .2em;
@@ -43,7 +45,9 @@ h2::after{
 .navbar .navbar-brand {
     font-size: 50px;
     font-family: 'Merriweather', serif;
-    color: #64ffda;
+    background: -webkit-linear-gradient(#50A7C2, #64ffda);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .navbar .navbar-nav .nav-item{
@@ -63,24 +67,17 @@ h2::after{
     filter: drop-shadow(1px 1px 5px rgb(48, 98, 114));
 }
 
-/* .main   {
-    margin: 100px;
-} */
-
 .main{
-    margin: 15px;
-    
+    margin: 15px;   
 }
 
 .header .container-fluid .row .pic-box {
     display: none;
-    /* display: flex;
-    justify-content: center;
-    margin-bottom: 35px; */
+    
 }
+
 .header .container-fluid .row .pic-box .pic {
     display: none;
-
 }
 
 .coolh5 {
@@ -88,18 +85,20 @@ h2::after{
     font-size: 15px;
     line-height: 24px;
     font-weight: bold;
+    color: white;
     padding: 10px 30px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 0px;
     letter-spacing: 2px;
-    margin-bottom: 15px;
+    margin: 20px 0;
 }
 
 #learnMore {
     display: none;
 }
+
 .header .container-fluid .row .text {
     display: flex;
     align-items: center;
@@ -107,12 +106,16 @@ h2::after{
     flex-direction: column;
     text-align: center;
 }
+
 .header .container-fluid .row .text h1  {
     margin-top: 30px;
     letter-spacing: 2px;
     font-family: 'Merriweather', serif;
     font-size: 45px;
     font-weight: bold;
+    background: -webkit-linear-gradient(#50A7C2, #64ffda);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 
@@ -123,8 +126,9 @@ h2::after{
 
 .header .container-fluid .row .text h2 span {
     font-weight: bold;
-    color: #0bceaf;
-    
+    background: -webkit-linear-gradient(#50A7C2, #64ffda);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
 }
 
 .header .container-fluid .row .text p {
@@ -137,6 +141,7 @@ h2::after{
     justify-content: center;
     flex-direction: column;
 }
+
 .header .container-fluid .row .text .header-btn a{
     border-radius: 3px;
     color: #0bceaf;
@@ -145,6 +150,7 @@ h2::after{
     transition: all ease-in .7s;
 
 }
+
 .header .container-fluid .row .text .header-btn a:hover {
     color: black;
     background-image: linear-gradient(45deg, #50A7C2, #64ffda);
@@ -173,10 +179,14 @@ h2::after{
 .about-area .row .info h2{
     font-family: 'Merriweather', serif;
     font-weight: 900;
+    font-size: 40px;
     padding: 25px 0;
-    color: #14d3b3;
-    text-transform: uppercase;
-    text-shadow: 10px 10px 10px; 
+    color: white;
+
+    /* background: -webkit-linear-gradient(#50A7C2, #64ffda);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    */
+    text-transform: capitalize;
 }
 
 .about-area .row .info h2 span{
@@ -256,7 +266,194 @@ footer {
 }
 
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 768px) {
+    .main   {
+        margin: 100px;
+    }
+    
+    .header .container-fluid .row{
+        display: flex;
+    }
+
+    .header .container-fluid .row .pic-box {
+        display: block;
+        padding: 25px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header .container-fluid .row .text {
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+
+    #learnMore{
+        display: initial;
+    }
+    
+    .header .container-fluid .row .pic-box .pic {
+        display: block;
+        width: 320px;
+        height: 320px;
+        padding: 25px;
+        border-radius: 50%;
+        background-image: url(../images/me.jpg);
+        background-size: cover;
+        background-position: center;
+        border: 10px solid rgba(0,0,0,0.5);
+    }
+    
+    .wow {
+        margin-bottom: 35px;
+    }
+
+    .h2specialLine{
+        display: none;
+    }
+    
+    .coolh5 {
+        background-color: #0bceaf;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: bold;
+        padding: 10px 30px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+        letter-spacing: 2px;
+    }
+
+    .header .container-fluid .row .text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .header .container-fluid .row .text h1  {
+        margin: 0;
+        letter-spacing: 2px;
+        font-family: 'Merriweather', serif;
+        font-size: 65px;
+    
+    }
+    
+    .header .container-fluid .row .text h1 span {
+        font-weight: bold;
+        color: #64ffda;
+    
+    }
+    
+    .header .container-fluid .row .text h1 span:hover {
+        font-weight: bold;
+        color: #64ffda;
+    }
+    
+    .header .container-fluid .row .text p {
+        font-size: 20px;
+    }
+    
+    .header .container-fluid .row .text .header-btn{
+        display: flex;
+        margin: 10px;
+        flex-direction: row;
+    }
+    
+    .header .container-fluid .row .text .header-btn a{
+        border-radius: 3px;
+        color: #64ffda;
+        border: 2px solid #64ffda ;
+        margin: 25px;
+        transition: all ease-in .7s;
+    
+    }
+    
+    .header .container-fluid .row .text .header-btn a:hover {
+        color: black;
+        background-image: linear-gradient(45deg, #50A7C2, #64ffda);
+        border: none;
+        filter: drop-shadow(1px 1px 5px rgb(48, 98, 114));
+    }
+    
+    .header .container-fluid .row .text .header-btn a:active {
+        filter: none;  
+    }
+    
+    .arrow-down {
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        margin-bottom: 45px;
+    }
+    .about-area .row .info {
+        display: flex;
+        /* align-items: center; */
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    
+    .about-area .row .info h2{
+        font-family: 'Merriweather', serif;
+        font-weight: bolder;
+        padding-bottom: 35px;
+        color: white;
+    }
+    
+    .scroll-down-link {
+        color: red;
+        cursor: pointer;
+        animation: MoveUpDown 2s ease-in-out infinite;
+        position: absolute;
+        transition: all 0.2s;
+        /* bottom: 0; */
+    }
+      
+    @keyframes MoveUpDown {
+        0%, 100% {
+            bottom: 0;
+        }
+        50% {
+            bottom: 10px;
+        }
+    }
+    
+    .about-area .row .info .about-para p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .about-area .row .info .skills p{
+        font-size: 20px;
+        line-height: 25px;}
+    
+    ul {
+        columns: 2;
+        list-style: circle;
+        color: #64ffda;
+      }
+      
+    .about-area .row .img {
+        padding-top: 65px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .about-area .row .img img{
+        border-radius: 5px;
+        /* height: 480px; */
+        width: 70%;
+        border: 2px solid white;
+    }
+    
+
+    
+}
+
+@media only screen and (min-width: 1200px) {
     .main   {
         margin: 100px;
     }
@@ -387,8 +584,7 @@ footer {
         font-family: 'Merriweather', serif;
         font-weight: bolder;
         padding-bottom: 35px;
-        color: #64ffda;
-       
+        color: white;
     }
     
     .scroll-down-link {
@@ -433,9 +629,9 @@ footer {
     
     .about-area .row .img img{
         border-radius: 5px;
-        height: 480px;
-        width: 350px;
-        border: 2px solid #64ffda;
+        /* height: 480px; */
+        width: 70%;
+        border: 2px solid white;
     }
     
 
