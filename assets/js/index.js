@@ -14,4 +14,4 @@ function popUp(){
 popUp();
 
 
-AOS.init();
+

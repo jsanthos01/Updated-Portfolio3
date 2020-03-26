@@ -121,6 +121,7 @@ h2::after{
 
 .header .container-fluid .row .text h2  {
     font-weight: bold;
+    color: white;
     font-family: 'Merriweather', serif;
 }
 
@@ -221,10 +222,9 @@ ul {
 
 .about-area .row .img img{
     border-radius: 5px;
-    width: 350px;
+    width: 70%;
     border: 2px solid #0bceaf;
 }
-
 footer {
     width: 100%;
     margin-top: 50px;
@@ -449,8 +449,6 @@ footer {
         border: 2px solid white;
     }
     
-
-    
 }
 
 @media only screen and (min-width: 1200px) {
@@ -633,7 +631,5 @@ footer {
         width: 70%;
         border: 2px solid white;
     }
-    
-
     
 }
