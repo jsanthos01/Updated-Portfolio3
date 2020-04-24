@@ -8,7 +8,7 @@ function popUp(){
 
     main.style.display = "block"
     setTimeout(() => main.style.opacity = 1, 50);
-  }, 5000);
+  }, 2000);
 }
 
 popUp();
